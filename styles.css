@@ -90,6 +90,18 @@ body{
     background-color: rgb(230, 12, 59);
 
 }
+@media (max-width: 768px) {
+    .container {
+        margin: 20% auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        margin: 30% auto;
+        padding: 30px;
+    }
 
 
 
