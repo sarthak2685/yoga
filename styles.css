@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background: url('https://cdn.pixabay.com/photo/2021/10/19/11/35/yoga-6723315_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+   /* border: 2px solid green;*/
+}
+.left img{
+    width: 75px;
+}
+.left div{
+    line-height: 27px;
+    font-size: 23px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 81%;
+    margin: 70px 308px;
+  /* border: 2px solid red;*/
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 29px 53px;
+}
+.navbar li a:hover,
+.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(117, 8, 241);
+}
+.container{
+    border: 2px solid white;
+    border-radius: 40px;
+    margin: 100px auto;
+    padding: 50px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 15px auto;
+    font-size: 18px;
+    border-radius: 17px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.container button{
+    display: block;
+    width: 100px;
+    margin: 30px auto;
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: rgb(117, 8, 241);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: rgb(230, 12, 59);
+
+}
+
+
+
