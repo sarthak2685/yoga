@@ -103,5 +103,32 @@ body{
         padding: 30px;
     }
 
+    .container h1 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .form-group input {
+        font-size: 16px;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    .container button {
+        font-size: 18px;
+        margin: 20px auto;
+        padding: 6px 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
